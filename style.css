@@ -1,0 +1,30 @@
+#intro .jumbotron{
+	background: url('../pictures/mainbg.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 70vh;
+    margin-bottom: 0px;
+
+
+}
+#intro .container{
+	position:relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#intro .btn{
+	margin-top: 20px;
+}
+.btn{
+    background-color: #f05f5c;
+    padding: 7px 28px;
+    border-radius: 20px;
+    border: none;
+}
+.btn:hover{
+	opacity:0.8;
+	background-color: #f05f5c!important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;}
